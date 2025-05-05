@@ -1,4 +1,4 @@
-Ex---
+---
 layout: post
 title:  "Embedded Linux"
 date:   2025-05-05 16:21:46 +0800

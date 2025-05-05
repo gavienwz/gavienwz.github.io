@@ -21,12 +21,10 @@
 title: gavienwz's Blog
 email: gavienpatweizhuo@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Github blog to document my experience learning about Embedded Systems, starting as a fresh graduate engineer.
+  Disclaimer: This blog may be riddled with misconceptions and not be very detailed, but I will try to amend them as I correct my misconceptions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
 github_username:  gavienwz
 
 # Build settings

@@ -5,4 +5,4 @@ permalink: /about/contact/
 ---
 
 Contacts:
-Email: gavienpatweizhuo@gmail.com
+Email: gavienpatweizhuo@ gmail.com

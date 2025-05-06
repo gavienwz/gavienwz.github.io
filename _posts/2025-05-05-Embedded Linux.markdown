@@ -56,3 +56,14 @@ Lastly, device tree bindings usually will include an example of the node.
 
 While Device tree bindings documents nodes, Device Tree Source (DTS) describes embedded systems. Common file types are .dts and .dtsi. DTS files with the included DTSI files are then compiled using the DTC to output DTB files. Which are the binary formatted files which the kernel parses to further initialise hardware.
 
+# Kernel
+The kernel is the low-level core of the operating system. It handles communication between user-space application software and the hardware, managing memory, process, and devices.
+
+While the kernel consists of a massive collection of code, the core of the kernel can be broken down into subsystems, each responsible for a important function of the operating system. These are: Core API, Device Drivers, Memory Management, Power Management, Scheduler, Timers, Locking (as per Linux Kernel Documentation).
+
+Device Drivers are pieces of code that interact with the device controller to control the hardware (Look up Device Driver Hierarchy to see how user applications interact with drivers to interact with hardware). These are most important when developing a custom system where devices may not work with the generic drivers. 
+(Personally, this is the most important part when developing a basic Embedded System, unless you are doing it from scratch as through Build Systems like Buildroot/Yocto/Openwrt, a device driver's dependancies will have to be selected before the driver. For eg, bus drivers etc, of which implementations are pretty standard across the board.) If there's a need to build a custom device driver, it helps to follow a similar device's driver as a template along with the device's datasheet to build the driver. Drivers receive arguments regarding the device's properties/settings from Kernel after it parses the DTB node that describes said device.
+
+# Initramfs
+
+
